@@ -49,7 +49,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .social-links {
+    .social-links>img{
         flex-direction: column; /* Stack social links for small screens */
         align-items: center;
     }
