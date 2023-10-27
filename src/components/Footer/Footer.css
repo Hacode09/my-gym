@@ -47,3 +47,14 @@
     filter: blur(200px);
     background: rgb(255, 115, 0);
 }
+
+@media screen and (max-width: 768px) {
+    .social-links {
+        flex-direction: column; /* Stack social links for small screens */
+        align-items: center;
+    }
+
+    .social-links>img {
+        margin-bottom: 1rem; /* Add space between social icons */
+    }
+}
