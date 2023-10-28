@@ -47,3 +47,34 @@
     filter: blur(200px);
     background: rgb(255, 115, 0);
 }
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .social-links img {
+    max-width: 40px; /* Set maximum width for the images */
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social-links {
+      justify-content: space-around; /* Adjust layout for smaller screens */
+    }
+  
+    .social-links a {
+      margin: 0;
+    }
+  }
+  
