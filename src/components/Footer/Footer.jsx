@@ -12,15 +12,9 @@ function Footer() {
             <hr />
             <div className="footer">
                 <div className="social-links">
-                    <a href="https://github.com/Hacode09" target='_blank'>
-                        <img src={Github} alt="" />
-                    </a>
-                    <a href="https://www.instagram.com/er.rahul_srivastava/" target='_blank'>
-                        <img src={Instagram} alt="" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/rahul-kumar-34bba8201/" target='_blank'>
-                        <img src={LinkedIn} alt="" />
-                    </a>
+                    <img src={Github} alt="" />
+                    <img src={Instagram} alt="" />
+                    <img src={LinkedIn} alt="" />
                 </div>
                 <div className="logo-f">
                     <img src={Logo} alt="" />
